@@ -21,7 +21,7 @@ public class DeviceBatteryPackage implements ReactPackage {
     return modules;
   }
 
-  @Override
+  // RN 47.0 deprectated
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }
